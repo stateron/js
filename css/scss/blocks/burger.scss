@@ -1,0 +1,64 @@
+.container.burger__container  {
+  display: flex;
+  flex-direction: column; 
+  height: 100%;
+}
+
+.header {
+  margin-top: 7px;
+}
+
+
+
+.section.burger {
+  background: url("/img/burger/font.png") center center / cover no-repeat;
+}
+
+.burger__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: .73;
+}
+
+.burger__content-img {
+  margin-left: 16px;
+}
+
+
+// .burger__content-text {
+//   margin-left: 13px;
+//   margin-top: 50px;
+
+//   .title {
+//     margin-top: 40px;
+//   }
+// }
+
+.burger__content-text{
+  margin-left: 13px;
+}
+
+
+.burger__content-title {
+  font-size: 72px;
+  color: #f9b43b;
+  font-family: 'Gagalin-Regular';
+}
+
+.burger__content-descp {
+  color: #fff;
+  font-size: 62px;
+  font-family: 'Lifehack-Medium';
+  text-transform: lowercase;
+  margin-top: 22px;
+  line-height: 1;
+}
+
+.arrow {
+  position: absolute;
+  top: 92%;
+  right: 49%;
+  
+  
+}

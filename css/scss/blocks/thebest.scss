@@ -1,0 +1,46 @@
+.section.thebest {
+  background: url('/img/thebest/bg.png') center center / cover no-repeat;
+}
+
+.thebest__list {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.thebest__item {
+  flex: 1;
+  margin-right: 15px;
+  text-align: center;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.thebest__img {
+  display: inline-block;
+  margin-bottom: 33px;
+
+  &--natur {
+    margin-top: 10px;
+  }
+}
+
+
+.thebest__desc-title {
+  font-size: 24px;
+  font-family: 'Lifehack-Medium';
+  margin-top: 0px;
+  
+}
+
+.thebest__desc-content {
+  opacity: 0.8;
+  font-family: Ubuntu;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.8;
+  margin-top: 12px;
+}

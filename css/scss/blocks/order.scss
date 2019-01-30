@@ -1,0 +1,49 @@
+
+
+
+
+.order {
+  background: url('/img/photos/bg.png') center center / cover no-repeat;
+}
+
+.form-order {
+  display: flex;
+}
+
+.form__row {
+  display: flex;
+  
+}
+
+.form__block-title {
+  color: #fff;
+}
+
+.form__block {
+  margin-right: 20px;
+  flex: 1;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.form__block--checkbox {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.form__block-input {
+  border-radius: 5px;
+  background: #fff;
+  border: none;
+  width: 100%;
+  padding: 5px 10px;
+  height: 36px;
+  margin-bottom: 20px;
+}
+
+.form__block-input--comment {
+  width: 100%;
+  height: 110px;
+}
